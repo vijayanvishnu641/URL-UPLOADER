@@ -1,26 +1,10 @@
 class Translation(object):
     START_TEXT = """Hello,
-i am Telegram URL Upload Bot! Created by @shreevish
-
-Please send me any direct download URL Link, i can upload to telegram as File/Video
-
- 🚨 . . . Note : its support almost all direct Url's except torrent link & some links . . . 🚨
- 
-🚨 PRON video🔞 Links gives you PERMANENT BAN 🚨
-
-       ┈┈┈••💙✿❤️✿💚••┈┈┈
-       
-URL-UPLOADER bot created by @shreevish
+I am Telegram URL Upload Bot!
 
 ➼/start = To Check whether the bot is alive or not
 ➼/help = To Know how to use me! 
 ➼/about = To know what am I !
-
-⚠️Note :- Join My Channel before paste the link"""
-    RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
-    ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "Contact @shreevish for Details"
-    FORMAT_SELECTION = """📭 𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇
 
 🎞️ 𝗩𝗜𝗗𝗘𝗢 = Upload as Streamble.
 
@@ -42,7 +26,7 @@ URL-UPLOADER bot created by @shreevish
     NOYES_URL = "Unknown URL detected. Use an Another Url"
     DOWNLOAD_START = "Downloading to my server \n📥 Please wait...⏳ 🙇🙇🙇 \nIt takes time depend on File Size"
     UPLOAD_START = "Yay,File Download Successfully 😊 \nNow Uploading to Telegram 📤"
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). \nNeverthless, Yay,File Download Successfully 😊  \nNow Uploading to Telegram 📤."
+    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size is 1.9 GB. \nNeverthless, Yay,File Download Successfully 😊  \nNow Uploading to Telegram 📤."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2 GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me. \nDownloaded in {} seconds. \nJoin : @All_Movie_Rockers . \nUploaded in {} seconds."
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Thanks for using me. \nDownloaded in {} seconds. \nJoin : @All_Movie_Rockers . \nUploaded in {} seconds"
@@ -54,14 +38,10 @@ URL-UPLOADER bot created by @shreevish
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
     CUSTOM_CAPTION_UL_FILE = " "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "Sorry, Your link doesnot cointain any video\n<b>YouTubeDL</b> said: {}\nFor More Contact @shreevish"
+    NO_VOID_FORMAT_FOUND = "Sorry, Your link doesnot cointain any video\n<b>YouTubeDL</b> said: {}\nFor More Contact @modrepos"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """⭕️<b>My Name : URL-UPLOADER</b>
-⭕️<b>Creater :</b> @shreevish
-⭕️<b>Language :</b> <code>Python3</code>
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-⭕️<b>Source Code :</b> 👉 <a href='https://telegram.dog/All_Movie_rockers'>Click Here</a>"""
-    
+
     HELP_USER = """Hai am URL Uploader bot..
 👉  Follow the below steps to download :-
 
@@ -73,11 +53,11 @@ URL-UPLOADER bot created by @shreevish
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
    
-Creator : @shreevish
+Creator : @modrepos
 --------
 Send /about to know current plan details
 
-Support Group : © @All_Movie_Rockers"""
+Support Group : © @modrepos"""
  
         
         
@@ -85,7 +65,7 @@ Support Group : © @All_Movie_Rockers"""
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /rename with custom thumbnail support"
-    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @shreevish"
+    AFTER_GET_DL_LINK = "Direct Link <a href='{}'>Generated</a> valid for {} days.\n© @modrepos"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS [HH:MM:SS]"""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
